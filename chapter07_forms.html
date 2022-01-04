@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Chapter 7 - forms</title>
+    </head>
+    <body>
+        <h1>This lesson is about form controls</h1>
+        <form action="hello-form" method="post" >
+            <p>Username:
+                <input type="text" name="username"  maxlength="30"/> 
+            </p>
+            <p>Password:
+                <input type="password" name="password"  maxlength="30"/> 
+            </p>
+            <p>Why do you register this site?</p> 
+            <p>
+                <textarea name="comment" cols="50" rows="4">Enter your answer here ...</textarea>
+            </p>
+            <p>Select your favorite genre</p>
+            <p>
+                <input type="radio" name="genre" value="rock" checked="checked"/> Rock 
+                <input type="radio" name="genre" value="pop" /> Pop
+                <input type="radio" name="genre" value="jazz" /> Jazz
+            </p>
+
+            <p>Select your favorite music service(s)</p>
+            <p>
+                <input type="checkbox" name="service" value="youtube" /> Youtube 
+                <input type="checkbox" name="service" value="itunes" /> Itunes
+                <input type="checkbox" name="service" value="spotify" /> Spotify
+            </p>
+            <p>What device do you usually listen to music on?</p>
+            <p>
+                <select name="device">
+                    <option value="ipod">iPod</option>
+                    <option value="laptop">Laptop</option>
+                    <option value="tablet">Tablet</option>
+                </select>
+            </p>
+            <p>Do you play any of the following instruments?
+                (You can select more than one option by holding
+                down control on a PC or command key on a Mac
+                while selecting different options.)</p>
+            <select name="instruments" size="2" multiple="multiple">
+                <option value="guitar" selected="selected">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="keyboard" selected="selected">Keyboard</option>
+                <option value="bass">Bass</option>
+            </select>
+            <p>Upload your song in mp3 format:</p>
+            <input type="file" name="user-song" />
+            <br/>
+            <br/>
+            <br/>
+            <input type="submit" value="Submit Form :)" />
+        </form>
+        <form action="new-form" >
+            <p>Your email:</p>
+            <input type="text" name="email" />
+            <br />
+            <input type="image" src="images/submit-btn.png" width="100" height="20" />
+        </form>
+        <p>This is an example using button element</p>
+        <button>
+            <img src="images/shark-hand.png" alt="shark-hand" />
+            HEHEHE..Bla...bla...
+        </button>
+        <form action="">
+            <label> Age: <input type="text" /></label>
+            <br />
+            <input type="radio" value="pop" name="music-genre" id="pop_id"/>
+            <label for="pop_id">Pop</label>
+            <input type="radio" value="jazz" name="music-genre" id="jazz_id"/>
+            <label for="jazz_id">Jazz</label>
+        </form>
+    </body>
+</html>

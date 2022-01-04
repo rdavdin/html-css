@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Page layout</title>
+        <style type="text/css">
+            body{
+                width: 600px;
+                font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+                color: #665544;
+            }
+            
+            .head-div{
+                position: absolute;
+                top: 20px;
+                left: 80px;
+            }
+
+            div>h1 {
+                background-color: #efefef;
+                padding: 10px;
+                position: absolute;
+                top: 0px;
+                left: 100px;
+                width: 250px;
+            }
+            h1 {
+                background-color: #efefef;
+                padding: 10px;
+                position: fixed;
+                top: 10px;
+                left: 0px;
+                margin: 0px;
+                width: 50px;
+            }
+            p {
+                width: 450px;
+                text-align: justify;
+            }
+
+            p.example {
+                position: relative;
+                top: 20px;
+                left: 50px;
+            }
+            .float {
+                width: 550px;
+            }
+            blockquote{
+                float: right;
+                width: 180px;
+                margin: 0px 0px 0px 15px;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="head-div">
+            <h1>The Evolution of the Bicycle</h1>
+        </div>
+        <h1>The second h1 is positioned fixed</h1>
+        <p>In 1817 Baron von Drais invented a walking machine that would help him get around the royal gardens faster: two same-size in-line wheels, the front one steerable, mounted in a frame upon which you straddled. The device was propelled by pushing your feet against the ground, thus rolling yourself and the device forward in a sort of gliding walk.</p>
+        <p class="example">The machine became known as the Draisienne (or "hobby horse"). It was made entirely of wood. This enjoyed a short lived popularity as a fad, not being practical for transportation in any other place than a well maintained pathway such as in a park or garden.</p>
+        <p>The next appearance of a two-wheeled riding machine was in 1865, when pedals were applied directly to the front wheel. This machine was known as the velocipede (meaning "fast foot") as well as the "bone shaker," since its wooden structure combined with the cobblestone roads of the day made for an extremely uncomfortable ride. They also became a fad and indoor riding academies, similar to roller rinks, could be found in large cities.</p>
+        <hr/>
+        <div class="float">
+            <h1>This is the part of demonstrating float</h1>
+            <blockquote>"Life is like riding a bicycle. To keep your balance you must keep moving." - Albert Einstein</blockquote>
+            <p class="float-div">In 1817 Baron von Drais invented a walking machine that would help him get around the royal gardens faster: two same-size in-line wheels, the front one steerable, mounted in a frame upon which you straddled. The device was propelled by pushing your feet against the ground, thus rolling yourself and the device forward in a sort of gliding walk.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Css for forms</title>
+        <style type="text/css">
+            form {
+                
+            }
+            div {
+                padding: 5px;
+                margin: 2px;
+                width: 270px;
+                background-color: antiquewhite;
+            }
+            .title {
+                width: 100px; 
+                float: left;
+                text-align: right;
+                padding-right: 10px;
+            }
+            #submit {
+                float: right;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>How to align a form clearly?</h1>
+        <form action="">
+            <div>
+                <label class="title" for="name_id">Name:</label>
+                <input type="text" id="name_id" name="name" />
+            </div>
+            <div>
+                <label class="title" for="email_id">Email:</label>
+                <input type="text" id="email_id" name="email" />
+            </div>
+            <div>
+                <span class="title">Gender:</span>
+                <input type="radio" id="male_id" name="gender" value="male"/>
+                <label for="male_id">M</label>
+                <input type="radio" id="female_id" name="gender" value="female"/>
+                <label for="female_id">F</label>
+            </div>
+            <div>
+                <input type="submit" value="Register" id="submit" />
+            </div>
+        </form>
+        <div>
+            <p>Contact me: <a href="mailto:rdavdin@gmail.com">rdavdin@gmail.com</a> </p>
+        </div>
+    </body>
+</html>

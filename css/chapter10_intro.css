@@ -1,0 +1,48 @@
+#id_selector {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    text-shadow: 2px 2px 0px blue;
+}
+h1 {
+    color: rgb(150, 150, 22);
+    text-indent: -99px;
+    background-color: grey;
+}
+
+li {
+    color: rgb(53, 124, 230);
+    font-style: oblique;
+    background-color: grey;
+}
+
+body {
+    color: rgb(56, 64, 136);
+    font-weight: bold;
+    /*line-height: 1.4em;*/
+}
+div {
+    width: 300px;
+    height: 300px;
+
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: blue;
+
+}
+strong {
+    padding: 10px;
+    border: 1px solid red;
+}
+div>p {
+    text-align: justify;
+    text-indent: 20px;
+    background-color: grey;
+    min-width: 75%; 
+    max-width: 90%;
+    height: 75%;
+    overflow: hidden;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid red;
+}
