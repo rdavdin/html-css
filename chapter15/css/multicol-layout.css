@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #411f15;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    border: 2px solid rgb(158, 158, 158);
+}
+h1 {
+    padding: 10px;
+    width:fit-content;
+}
+h2 {
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 10px;
+} 
+
+div {
+    background-color: azure;
+    padding: 10px;
+}
+
+#content {
+    width: 100%;
+    background-color: #5cff9a;
+    overflow: auto;
+}
+
+#sidebar-part {
+    width: 30%;
+    float: left;
+}
+#main-part {
+    width: 70%;
+    float: left;
+}
+
+ul {
+    list-style: inside;
+    margin-left: 10px;
+}

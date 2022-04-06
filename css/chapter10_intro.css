@@ -6,13 +6,13 @@
 h1 {
     color: rgb(150, 150, 22);
     text-indent: -99px;
-    background-color: grey;
+    background-color: rgb(250, 0, 0);
 }
 
 li {
     color: rgb(53, 124, 230);
     font-style: oblique;
-    background-color: grey;
+    background-color: rgb(24, 1, 1);
 }
 
 body {

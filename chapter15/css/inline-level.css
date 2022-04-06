@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #411f15;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    border: 2px solid rgb(158, 158, 158);
+}
+h1 {
+    background-color: gray;
+    padding: 10px;
+    width:fit-content;
+    margin: 10px 10px 0px 10px;
+}
+p {
+    margin-bottom: 10px;
+} 
+
+div {
+    background-color: azure;
+    padding: 10px;
+    margin: 5px 10px;
+}
+img {
+    margin-right: 5px;
+}
+
+
